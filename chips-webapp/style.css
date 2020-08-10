@@ -1,5 +1,5 @@
 body{
-    background-image: url(nordwood-themes-KcsKWw77Ovw-unsplash\ \(1\).jpg);
+    background-color: white;
 }
 /*.top-nav{
     background-color: black;
@@ -30,14 +30,16 @@ body{
 }*/
 
 .topnav {
-    background-color: #333;
+    background-color:black;
     overflow: hidden;
+    border-bottom: black;
+    border: black 100%;
   }
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+  .top-nav a {
     float: left;
-    color: #f2f2f2;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -45,13 +47,13 @@ body{
   }
   
   /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #4CAF50;
+  .top-nav a:hover {
+    background-color: black;
     color: white;
   }
+  
+  /* Add a color to the active/current link 
+  .top-nav a.active {
+    background-color: black;
+    color:white;
+  }*/
